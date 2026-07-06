@@ -1,0 +1,231 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+\begin{center}
+    {\Huge \textbf{\scshape Abhishek Varpe}} \\[4pt]
+    \small 
+    \href{tel:+919284397932}{+91 92843 97932} $|$ 
+    \href{mailto:varpeabhi2020@gmail.com}{\underline{varpeabhi2020@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/abhishek-varpe-a88895233}{\underline{LinkedIn}} $|$
+    \href{https://github.com/AbhishekVarpe}{\underline{GitHub}} $|$
+    \href{https://abhishek-varpe-67ehngt.gamma.site/abhishekvarpe}{\underline{Portfolio}}
+\end{center}
+
+
+%----------- Professional Summery-----------
+\section{Professional Summary}
+ \begin{itemize}[leftmargin=0.10in, label={}]
+    \small{\item{
+     {“I am a motivated Computer Engineering student with a strong passion for problem-solving and web development. I enjoy learning new technologies and applying them to real-world projects. With solid teamwork, communication, and collaboration skills, I thrive in fast-paced environments."}}}
+ \end{itemize}
+%--------------------------------------------
+
+%%----------- SKILLS-----------
+\section{Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+        \textbf{Programming Languages and Tools}{: Java, JavaScript, HTML5, CSS3, Bootstrap, SQL, Git, GitHub,DSA.} \\
+        \textbf{Frameworks and Libraries}{: Hibernate, Spring, Spring Boot, Spring Security, Spring AI, Microservices, AWS.} \\
+        \textbf{Databases}{: MySQL, MongoDB.} \\
+        \textbf{Operating Systems}{: Linux, Windows.}
+    }}
+\end{itemize}
+
+
+
+%-----------EDUCATION-----------
+\section{Education}
+ \resumeSubHeadingListStart
+  \resumeSubheading
+    {Pravara Rural Engineering College (PREC)}{Loni, Maharashtra}
+    {Bachelor of Engineering in Computer Engineering {\underline{SGPA:-9.10}}}{Dec. 2021 -- July 2025}
+  \resumeSubheading
+    {Dr. D.A. Ohara Jr. College, Sangamner}{Sangamner, Maharashtra}
+    {Higher Secondary Certificate, Maharashtra State Board}{2019 -- 2020}
+\resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Experience} 
+\resumeSubHeadingListStart
+\resumeSubheading
+  {TranspoGov -- Public Transport \& Mobility Governance System (CTS)}{Chennai, Tamil Nadu}
+  {Full Stack Developer (Cognizant Technology Solutions Project) \quad | \quad \href{https://github.com/AbhishekVarpe/TransportGov-CTS-backEnd-code}{\underline{GitHub}}}{Jan. 2026 -- June 2026}
+  \resumeItemListStart
+      \resumeItem {Developed a full-stack transport governance platform featuring secure \textbf{RBAC authentication}, ticket booking, route \& schedule management, and real-time notifications.}
+      \resumeItem {Implemented robust modules for \textbf{compliance monitoring}, audit logging, resource management, and interactive analytics dashboards to enhance operational transparency.}
+  \resumeItemListEnd
+  \resumeSubheading
+    {TechnoGrowth Software Solutions Pvt. Ltd.}{Pune, Maharashtra}
+    {Full Stack Java Developer \quad | \quad \href{https://drive.google.com/file/d/17SJfWMQhnuav46j-RLHnuLcVoS9KZtJ4/view?usp=drive_link}{\underline{Certificate}}}{Mar. 2025 – Dec. 2025}
+  \resumeItemListStart
+    \resumeItem {\textbf{Web Scrapping} — Developed a full-stack web scraping application using \textbf{Java, Spring Boot, HTML, CSS, and JavaScript}. Implemented JSoup-based scrapers to efficiently extract website data including video links, images, and URLs, and displayed the results in a responsive UI.}
+
+    \resumeItem {Built a responsive and user-friendly \textbf{Banking System Web Application} using \textbf{HTML, CSS} for the frontend and \textbf{Spring Boot} for the backend to manage user accounts, transactions, and customer profiles.}
+\resumeItemListEnd
+
+
+
+ 
+
+%   \resumeSubheading
+%     {Sumago Infotech Pvt. Ltd.}{Pune, Maharashtra}
+%     {MERN Stack Intern \quad | \quad \href{https://drive.google.com/file/d/1c5ONBSG_E7QKxbAsTavhH-HyevuIUcpt/view?usp=drive_link}{\underline{Certificate}}}{Dec. 2023 – Jan. 2024}
+%     \resumeItemListStart
+%         \resumeItem {Developed and maintained \textbf{responsive web applications} using \textbf{React} and \textbf{JavaScript}.}
+%         \resumeItem {Optimized applications for \textbf{faster speed}, performance, and scalability.}
+%     \resumeItemListEnd
+
+% \resumeSubHeadingListEnd
+
+ 
+%-----------PROJECTS-----------
+\section{Projects}
+\resumeSubHeadingListStart
+
+% ---------- Project 1 ----------
+\resumeProjectHeading
+{\textbf{TranspoGov - Public Transport \& Mobility Governance System} $|$ \emph{\textbf{Spring Boot, React, MySQL}}}{}
+\resumeItemListStart
+    \resumeItem{Developed a full-stack \textbf{transport governance platform} with secure \textbf{RBAC authentication}, ticket booking, route \& schedule management, and real-time notifications.}
+    \resumeItem{Implemented modules for \textbf{compliance monitoring}, audit logging, resource management, and analytics dashboards to improve operational transparency and decision-making.}
+\resumeItemListEnd
+% ---------- Project 2 ----------
+\resumeProjectHeading
+{\textbf{2. Smart Expense \& Budget Management System} $|$ \emph{\textbf{Spring Boot, Rest API, MySQL, Angular}}}{}
+\resumeItemListStart
+    \resumeItem{Built a \textbf{FinTech-style web application} with \textbf{income/expense tracking}, automated \textbf{data visualizations}, integrated \textbf{savings goals} and budgeting, \textbf{PDF report generation} with password encryption, \textbf{email notifications}, and \textbf{QR code} creation for secure financial management.}
+\resumeItemListEnd
+
+% ---------- Project 3 ----------
+\resumeProjectHeading
+{\textbf{3. Reusable Auth System} $|$ \emph{\textbf{Spring Boot, Spring Security, Spring AI, OAuth2, Email Services}}}{}
+\resumeItemListStart
+    \resumeItem{Developed a modular \textbf{Reusable Auth System} using \textbf{Spring Boot} and \textbf{Spring Security}, enabling secure authentication, role-based authorization, and encrypted password management.}
+    \resumeItem{Integrated \textbf{OAuth2 authentication} with Facebook, Google, Microsoft, and GitHub, providing seamless multi-provider login support.}
+    \resumeItem{Configured \textbf{email services} for account verification, password reset, and login notifications, and utilized \textbf{Spring AI} to automate authentication workflows.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+
+
+
+
+%-----------CERTIFICATION-----------
+
+  \resumeItemListEnd
+
+%--------------------------------------------
+
+
+%-----------------------------------
+
+\end{document}
